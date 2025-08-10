@@ -36,7 +36,7 @@ router.post("/getmaps", async (req: Request, res: Response) => {
             },
             {
               type: "Excavator",
-              selectionStatus: "Wanted",
+              selectionStatus: "NoPreference",
               requiredBiomes: [],
               blockedBiomes: [],
             },
@@ -54,13 +54,13 @@ router.post("/getmaps", async (req: Request, res: Response) => {
             },
             {
               type: "Large Harbor",
-              selectionStatus: "NoPreference",
+              selectionStatus: "Wanted",
               requiredBiomes: [],
               blockedBiomes: [],
             },
             {
               type: "Launch Site",
-              selectionStatus: "Wanted",
+              selectionStatus: "NoPreference",
               requiredBiomes: [],
               blockedBiomes: [],
             },
@@ -108,7 +108,7 @@ router.post("/getmaps", async (req: Request, res: Response) => {
             },
             {
               type: "Small Harbor",
-              selectionStatus: "NoPreference",
+              selectionStatus: "Wanted",
               requiredBiomes: [],
               blockedBiomes: [],
             },
