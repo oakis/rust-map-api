@@ -12,7 +12,7 @@ router.post("/getmaps", async (req: Request, res: Response) => {
       method: "POST",
       body: JSON.stringify({
         searchQuery: {
-          size: { min: 3500, max: 3500 },
+          size: { min: 4250, max: 4250 },
           biomes: [
             { type: "Snow", settings: { min: 0, max: 100 } },
             { type: "Desert", settings: { min: 0, max: 100 } },
